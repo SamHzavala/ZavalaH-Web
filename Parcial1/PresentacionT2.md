@@ -1,6 +1,6 @@
 # SAMANTHA DAYANA ZAVALA HERRERA 
 
-### **Estudio ingenieria en sistemas computacionales, estoy cursando actualmente 7mo semestre, llevo un promedio de 84.2.**  
+### **Estudio ingenieria en sistemas computacionales, estoy cursando actualmente 7mo semestre, llevo un promedio de 84.2. Mi numero de control es 19100269, entre en el 2019.**  
 ### **Me graduo en enero del 2024 y pienso estudiar una maestria y doctorado, ya sea en monterrey o canada.**    
 
   <br>
