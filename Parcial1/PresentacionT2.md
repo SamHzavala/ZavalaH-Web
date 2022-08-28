@@ -6,7 +6,7 @@
   <br>
 
 ## *EXPERIERIENCIA LABORAL*  
-> Actualmente tengo experencia en atencion al cliente por parte de una secundaria trabajando como administrativo en el turno vespertino.  
+> Actualmente tengo experencia en atencion al cliente por parte de una secundaria trabajando como administrativo en el turno vespertino. Y tambien estoy agarrando experiencia gracias al servicio social que hago en el laboratorio de sistemas. 
 
 <br>
 
