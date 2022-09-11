@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    width: 200px;
+    height: 500px;
+}
+
+ul > li > ul {
+    display: none;
+}
+
+ul > li:hover > ul {
+    display: block;
+    height: 100%;
+}
+
+.opcion {
+    background: rgb(240, 111, 96);
+    color:rgb(0, 25, 252);
+    text-align: center;
+    margin: auto;
+    width: 500px;
+    height: 200px;
+    
+
+}
+
+.subOpcion {
+    padding-left: 20px;
+    width: 500px;
+    height: 55px;
+    background: peru;
+    color: brown;
+    text-align: center;
+    margin-top: auto;
+}
