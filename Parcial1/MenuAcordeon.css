@@ -40,3 +40,39 @@ ul > li:hover > ul {
     margin-top: auto;
     
 }
+
+
+/*CODIGO PARA DESPLEGAR EL MODAL */
+
+.VentanaModal {
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: red;
+    z-index: 99999;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.VentanaModal:target{
+    opacity: 1;
+    pointer-events: auto;
+    background: lawngreen;
+
+}
+
+.VentanaModal > div {
+    width: 400px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px;
+    border-radius: 10px;
+    background: lightcoral;
+}
+
+.botonAbrir:hover {background: blue; color: blueviolet;}
+.botonCerrar:hover {background: blue; color: blueviolet;}
+
