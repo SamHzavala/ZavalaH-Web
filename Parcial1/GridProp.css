@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor{
+    width: 100vw;
+    height: 100vh;
+    background-color: darkslategrey;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    justify-content: center;
+    align-content: center;
+    justify-items: stretch;
+    align-items: stretch;
+    grid-auto-flow: column;
+
+}
+
+.caja{
+   /* width: 100px;
+    height: 100px;*/
+    background-color: gold;
+    text-align: center;
+    border: 1px solid red;
+}
+
+#caja1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
