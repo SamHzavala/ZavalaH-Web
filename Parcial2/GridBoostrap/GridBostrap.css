@@ -1,0 +1,39 @@
+.head {
+    background: dodgerblue;
+}
+
+.col1 {
+    background: indianred;
+}
+
+.col2 {
+    background: chocolate;
+}
+
+.col3 {
+    background: deeppink;
+}
+
+.col4 {
+    background: darkgreen;
+    color: aliceblue;
+}
+
+.col5 {
+    background: springgreen;
+}
+
+.col6 {
+    background: darkblue;
+    color: aqua;
+}
+
+.col7 {
+    background: darkmagenta;
+    color: chartreuse;
+}
+
+.col8 {
+    background: darkturquoise;
+
+}
