@@ -7,55 +7,95 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   </head>
   <body>
-    <h1>CATALOGO DE EMPLEADOS</h1>
+
+
+    <h1>CATALOGO DE ANIMALES DE UNA VETERINARIA </h1>
     
     <form>
         <div class="row">
-          <div class="form.group col-sm-12 col-md-4 col-lg-2">
-             <label for="idEmpleado" class="form-label">Id</label>
-            <input type="text" class="form-control" id="idEmpleado" aria-describedby="emailHelp">
+          <div class="form.group col-sm-12 col-md-2 col-lg-2">
+             <label for="idAnimal" class="form-label">Id</label>
+            <input type="text" class="form-control" id="idAnimal" aria-describedby="emailHelp">
           </div>
         
-          <div class="form.goup col-sm-12 col-md-8 col-lg-10">
-            <label for="nombreEmpleado" class="form-label">Nombre</label>
-            <input type="text" class="form-control" id="nombreEmpleado">
+          <div class="form.goup col-sm-12 col-md-5 col-lg-5">
+            <label for="nombreAnimal" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="nombreAnimal">
            </div>
+
+        <div class="form.goup col-sm-12 col-md-5 col-lg-5">
+            <label for="Dueno" class="form-label">Nombre del Dueño</label>
+            <input type="text" class="form-control" id="Dueno">
+          </div>
+
+        
         </div>
        
 
         <div class="row">
-            <div class="form.group col-sm-12 col-md-6 ">
-               <label for="apPaternoEmpleado" class="form-label">Ap.Paterno</label>
-              <input type="text" class="form-control" id="apPaternoEmpleado" aria-describedby="emailHelp">
+            <div class="form.group col-sm-3 col-md-3 ">
+               <label for="tipoRaza" class="form-label">Tipo de raza</label>
+              <input type="text" class="form-control" id="tipoRaza" aria-describedby="emailHelp">
             </div>
           
-            <div class="form.goup col-sm-12 col-md-6 ">
-              <label for="apMaternoEmpleado" class="form-label">Ap.Materno</label>
-              <input type="text" class="form-control" id="apMaternoEmpleado">
+            <div class="form.goup col-sm-3 col-md-3 ">
+              <label for="colorPelaje" class="form-label">Color de pelaje</label>
+              <input type="text" class="form-control" id="colorPelaje">
+             </div>
+
+            <div class="form.goup col-sm-3 col-md-3 ">
+              <label for="tamano" class="form-label">Tamaño</label>
+              <input type="text" class="form-control" id="tamano">
+             </div>
+
+            <div class="form.goup col-sm-3 col-md-3 ">
+              <label for="peso" class="form-label">Peso</label>
+              <input type="text" class="form-control" id="peso">
              </div>
         </div>
 
 
         <div class="row">
             <div class="form.group col-sm-12 col-md-6 col-lg-4 ">
-               <label for="rfcEmpleado" class="form-label">Rfc</label>
-              <input type="text" class="form-control" id="rfcEmpleado" aria-describedby="emailHelp">
+               <label for="fechaNac" class="form-label">Fecha de nacimiento</label>
+              <input type="text" class="form-control" id="fechaNac" aria-describedby="emailHelp">
             </div>
 
             <div class="form.group col-sm-12 col-md-6 col-lg-4">
-                <label for="curpEmpleado" class="form-label">Curp</label>
-               <input type="text" class="form-control" id="curpEmpleado" aria-describedby="emailHelp">
+                <label for="edad" class="form-label">Edad</label>
+               <input type="text" class="form-control" id="edad" aria-describedby="emailHelp">
              </div>
           
             <div class="form.goup col-sm-12 col-md-12 col-lg-4">
-              <label for="emailEmpleado" class="form-label">Email</label>
-              <input type="text" class="form-control" id="emailEmpleado">
+              <label for="sexo" class="form-label">Sexo</label>
+              <input type="text" class="form-control" id="sexo">
              </div>
         </div>
 
+      <br>
 
+        <h2>DATOS DEL CLIENTE</h2>
 
-        <button id="btnGetReg" type="submit" class="btn btn-primary">Traer registro</button>
+        <div class="row">
+          <div class="form.group col-sm-12 col-md-6 col-lg-4 ">
+             <label for="direccion" class="form-label">Direccion</label>
+            <input type="text" class="form-control" id="direccion" aria-describedby="emailHelp">
+          </div>
+
+          <div class="form.group col-sm-12 col-md-6 col-lg-4">
+              <label for="telefono" class="form-label">Telefono</label>
+             <input type="text" class="form-control" id="telefono" aria-describedby="emailHelp">
+           </div>
+        
+          <div class="form.goup col-sm-12 col-md-12 col-lg-4">
+            <label for="email" class="form-label">E-mail</label>
+            <input type="text" class="form-control" id="email">
+           </div>
+      </div>
+
+        <br>
+
+        <button id="btnGetReg" type="button" class="btn btn-primary">Traer registro</button>
         
      </form>
 
@@ -68,6 +108,7 @@
   
      
   
+    
   
   
   
