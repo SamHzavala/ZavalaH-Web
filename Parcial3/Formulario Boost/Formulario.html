@@ -108,7 +108,35 @@
   
      
   
-    
+    <script>
+
+      // document.getElementById("btnGetReg").addEventListener("click",function(){
+
+      //  fetch('Registro.php')
+      //  .then(respuesta=>respuesta.json())
+      //   .then(dato=>displayCampos(dato)); 
+
+      // });
+
+      // function displayCampos(reg) {
+      //   document.getElementById("idEmpleado").value=reg.id
+      //   document.getElementById("nombreEmpleado").value=reg.nombre
+
+      // }
+
+
+      document.getElementById("btnGetReg").addEventListener("click",async()=>{
+        let respuesta = await fetch('Registro.php');
+        let dato = await respuesta.json();
+
+        document.getElementById("idAnimal").value=dato.id
+        document.getElementById("nombreAnimal").value=dato.nombre
+        document.getElementById("tipoRaza").value=dato.tipoRaza
+      })
+
+     
+
+    </script>
   
   
   
